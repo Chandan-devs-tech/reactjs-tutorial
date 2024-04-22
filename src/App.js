@@ -1,10 +1,11 @@
 import "./styles.css";
+import ReactBasics from "./components/ReactBasics";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Getting Started with ReactJS</h1>
+      <ReactBasics />
     </div>
   );
 }
